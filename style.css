@@ -1,0 +1,79 @@
+body {
+ font-family: 'Amatic SC', cursive;
+  background-color: black;
+  font-size: 18px;
+}
+
+.postcard {
+  width: 520px;
+  height: 360px;
+  background-color: white;
+  padding: 15px;
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ h1{
+  margin: 0;
+  font-size: 50px;
+}
+
+.postcard-header{overflow: hidden;}
+
+
+
+img{
+  max-width: 60px;
+  float:right;
+  position: absolute; top: 15px; right: 15px;
+}
+
+.postcard-body{overflow: hidden;
+}
+
+.body-left{
+  float: left;
+  width: 50%;
+  font-size: 20px;
+
+}
+
+.body-right{
+  float: right;
+  padding-left: 15px;
+}
+
+input[type="text"] {
+font-family: 'Amatic SC', cursive;
+  font-weight: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgray;
+  display: block;
+  font-size: 18px;
+  width: 230px;
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+
+.postcard-footer{
+  padding: 20px;
+  text-align: center;
+}
+
+
+input[type="submit"] {
+font-family: 'Amatic SC', cursive;
+  border-bottom: 1px solid gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: bold;
+  width: 35%;
+  font-size: 18px;
+  background-color: darkgray;
+
+
+}
